@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, Button } from "grommet";
+import { Box, Heading, Button, Text } from "grommet";
 import SyncLoader from "react-spinners/SyncLoader";
 
 const VerificationModal = props => {
@@ -26,6 +26,11 @@ const VerificationModal = props => {
             hoverIndicator="background"
             onClick={() => props.registerVoteOnBlockchain(props.candidateWalletAddressSelected, props.voterAddress)}
           />
+        ) : null
+      }
+      {
+        props.registerVoteOnBlockchainPressed ? (
+          <Text weight="bold" margin="medium">Waiting for transaction confirmation...</Text>
         ) : null
       }
     </Box>

@@ -29,7 +29,8 @@ class VotingScreen extends React.Component {
     isRegistered: null,
     userConstituency: "",
     candidateWalletAddressSelected: null,
-    userHasVoted: null
+    userHasVoted: null,
+    registerVoteOnBlockchainPressed: false
   }
 
   componentDidMount = async () => {
@@ -60,6 +61,7 @@ class VotingScreen extends React.Component {
   }
 
   registerVoteOnBlockchain = async (candidateAddress, voterAddress) => {
+    this.setState({ registerVoteOnBlockchainPressed: true });
     console.log("Candidate Address: ", candidateAddress);
     console.log("Voter Address: ", voterAddress);
     const response = await this.props.ElectionContract.methods.voteForCandidate(candidateAddress, voterAddress, this.state.otpValue).send({ from: this.props.accounts[0], gasPrice: 0 });
@@ -74,7 +76,7 @@ class VotingScreen extends React.Component {
       return (
         <Grommet theme={theme} full>
           <Box fill align="center" justify="center">
-            <Heading>You need to register first!</Heading>
+            <Heading>You are not on the Voter List. You cannot vote.</Heading>
           </Box>
         </Grommet>
       )
@@ -133,6 +135,7 @@ class VotingScreen extends React.Component {
                   name={item[0]}
                   party={item[2]}
                   candidateAddress={item[5]}
+                  registerVoteOnBlockchainPressed={this.state.registerVoteOnBlockchainPressed}
                   onVoteButtonPressed={this.onVoteButtonPressed}
                 />
               )
