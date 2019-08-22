@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/azure-voting-client/precache-manifest.374fcd421240bc290af0bafa2d74853a.js"
+  "/azure-voting-client/precache-manifest.3c55cc921f9e3e153ce16d11128ec8af.js"
 );
 
 self.addEventListener('message', (event) => {

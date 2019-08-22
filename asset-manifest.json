@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/azure-voting-client/static/js/main.956f51ad.chunk.js",
-    "main.js.map": "/azure-voting-client/static/js/main.956f51ad.chunk.js.map",
+    "main.js": "/azure-voting-client/static/js/main.424ac832.chunk.js",
+    "main.js.map": "/azure-voting-client/static/js/main.424ac832.chunk.js.map",
     "runtime~main.js": "/azure-voting-client/static/js/runtime~main.628c80c6.js",
     "runtime~main.js.map": "/azure-voting-client/static/js/runtime~main.628c80c6.js.map",
     "static/js/2.8a44c26c.chunk.js": "/azure-voting-client/static/js/2.8a44c26c.chunk.js",
     "static/js/2.8a44c26c.chunk.js.map": "/azure-voting-client/static/js/2.8a44c26c.chunk.js.map",
     "index.html": "/azure-voting-client/index.html",
-    "precache-manifest.374fcd421240bc290af0bafa2d74853a.js": "/azure-voting-client/precache-manifest.374fcd421240bc290af0bafa2d74853a.js",
+    "precache-manifest.3c55cc921f9e3e153ce16d11128ec8af.js": "/azure-voting-client/precache-manifest.3c55cc921f9e3e153ce16d11128ec8af.js",
     "service-worker.js": "/azure-voting-client/service-worker.js",
     "static/media/profile.jpg": "/azure-voting-client/static/media/profile.b1f16126.jpg"
   }

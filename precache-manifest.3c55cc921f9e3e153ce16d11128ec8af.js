@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb6ae0f0e08390c6019514f53815f21b",
+    "revision": "a906cea485571370b3b83b4417fae734",
     "url": "/azure-voting-client/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/azure-voting-client/static/js/2.8a44c26c.chunk.js"
   },
   {
-    "revision": "1564b4d3954048b64160",
-    "url": "/azure-voting-client/static/js/main.956f51ad.chunk.js"
+    "revision": "b04de96c69fee65fcbcb",
+    "url": "/azure-voting-client/static/js/main.424ac832.chunk.js"
   },
   {
     "revision": "6a47a86aab90a0f08095",
